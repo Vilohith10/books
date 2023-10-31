@@ -9,7 +9,7 @@ const Schema = mongoose.Schema
 require('dotenv').config();
 const bookRoutes=require('./book')
 app.use(express.json());
-const uri = `mongodb://localhost:27017/bookstore`
+const uri = process.env.MONGO_URL
 // const db = require("../models");
 // console.log("🚀 ~ file: mongodb.js:8 ~ uri:", uri)
 
