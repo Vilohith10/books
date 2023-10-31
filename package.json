@@ -1,0 +1,22 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "Managing Books",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run_app": "nodemon.cmd app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongod": "^2.0.0",
+    "mongodb": "^6.2.0",
+    "mongoose": "^7.6.4",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7"
+  }
+}
